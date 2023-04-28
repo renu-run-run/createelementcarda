@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body id="root">
+    <script>
+
+        let h1Ref = React.createElement('div', {style: { width: "400px", height: "70vh", margin: "50px auto", boxShadow: "0 0 10px black", borderRadius: "10px" } },
+        [React.createElement('div',{style:{ textAlign: "center", width: "100%", height: "60%" }},
+        [React.createElement('img',{ style:{ width: "100%", height: "100%", borderRadius: "10px" },src: "https://funkylife.in/wp-content/uploads/2023/03/good-morning-image-531.jpg"}),
+        
+        ] 
+        ),React.createElement('div',{style:{ textAlign: "center" }},[React.createElement('h1',{style: { color:"black" }}, "Renuka Choudhary"),
+        React.createElement('p',{style: { color:"black" }}, "UI/UX Designer") ]),
+        React.createElement('div',{style:{ display: "flex", justifyContent: "space-evenly" }},
+        [React.createElement('div',{ style:{textAlign:"center"}},[React.createElement('h2',{style: {color:"grey",lineHeight:"0px"}}, "123"),React.createElement('p',{style: {color:"black"}}, "POSTS")]),
+        React.createElement('div',{ style:{textAlign:"center"}},[React.createElement('h2',{style: {color:"grey",lineHeight:"0px"}}, "123"),React.createElement('p',{style: {color:"black"}}, "FOLLWERS")]),
+        React.createElement('div',{ style:{textAlign:"center"}},[React.createElement('h2',{style: {color:"grey",lineHeight:"0px"}}, "123"),React.createElement('p',{style: {color:"black"}}, "FOLLOWING")])
+        ]),
+       
+    
+        ]);
+        ReactDOM.render(h1Ref, document.getElementById('root'));
+
+
+    </script>
+</body>
+
+</html>
